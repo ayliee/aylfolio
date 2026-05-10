@@ -1,7 +1,6 @@
 {
-  "rootDirectory": "ayle-main",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "buildCommand": "cd ayle-main && npm install && npm run build",
+  "outputDirectory": "ayle-main/dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
